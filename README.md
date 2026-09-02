@@ -21,13 +21,12 @@ dependencies. Works on a dark or a light card.
 | `signin-scan.css` | The stylesheet — the animation and all layout. |
 | `signin-scan.html` | The markup block to paste next to your form (needs the CSS). |
 | `signin-scan.js` | Optional `<signin-scan>` web component (styles + SVG bundled, shadow DOM). |
-| `index.html` | Demo — the sign‑in card from the reference, with a light/dark toggle. |
+| `index.html` | Self‑contained landing page: live demo, embed snippets, and the variable table. |
 
-Open `index.html` in a browser to see it. Any static server works, e.g.:
+**Live:** <https://ogabek-karimov.github.io/signin-scan-animation/>
 
-```bash
-npx serve .
-```
+`index.html` needs nothing else — open the file directly, or serve the folder
+with `npx serve .`.
 
 ## Use it
 
